@@ -1,7 +1,8 @@
 # Stroke-Prediction-Using-Machine-Learning
 The aims of this project were to find apply machine learning models for predicting the stroke with different chosen features to identify everyone’s risk of stroke. Develop and evaluate ensemble model combining all the used models to identify risk of stroke. 
 ### Dataset
-The data used in this project are available online in educational purpose use. The dataset is used to predict whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status. Each row in the data provides relevant information about the patient. The dataset provides 11 features and output column with a small percentage of missing values and reasonable number of features and data. The number of people have a risk of stroke is 498 and the 498 have no risk (after balancing the dataset). 
+The data used in this project are available online in educational purpose use. The dataset is used to predict whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status. Each row in the data provides relevant information about the patient. The dataset provides 11 features and output column with a small percentage of missing values and reasonable number of features and data. The number of people have a risk of stroke is 498 and the 498 have no risk (after balancing the dataset).
+### Workflow
 ![Workflow](https://user-images.githubusercontent.com/56036913/152394361-ed993fae-b86a-4879-8816-e59b6779043e.PNG)
 ### Preprocessing
 - Missing values
@@ -27,7 +28,7 @@ After observation of all the models and the accuracy for each individual model a
 ![Results](https://user-images.githubusercontent.com/56036913/152397302-7f5d1272-3732-4f9a-ab67-bc6f76012456.PNG)
 ![Models](https://user-images.githubusercontent.com/56036913/152397437-d077abf2-ea6e-4dae-918d-8c64f72601ab.PNG)
 Random forest classifier achieved the best results on both training and classification sets. Against all the odds the voting classifiers did not achieve the best results. Surprisingly, soft voting classifier achieved the worst accuracy in comparison with the other models. Hard voting classifier achieved the second-best accuracy in the validation set. Decision tree classifier achieved the achieved the second-best accuracy on the training set.
-### Performace
+### Performance
 ![CM](https://user-images.githubusercontent.com/56036913/152397830-8f52c1b4-9c97-4d1c-9096-d51bb793454d.PNG)
 ![ROC](https://user-images.githubusercontent.com/56036913/152397961-d9a80f73-25d0-4d43-95d6-860125013c5d.PNG)
 
